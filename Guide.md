@@ -64,37 +64,9 @@ css :--------------------------------
 //--------------------------------------------------------------
 HTML :------------------------------------
 <div class="hero" id="home">
-  <h1>Citronics 2019</h1>
-  <br />
-  <br />
-  <p>Back with a bang !<br />
-     Centeral India's Biggest<br />
-     TechFest</p>
-  <br />
-  <br />
-  <div class="scrollDown">
-    <img id="mouseIcon" src="images/mouse.svg" alt="mouse down"/>
-    <br />
-    <br />
-    <i class="fa  fa-angle-double-down"></i>
-  </div> <!-- scroll end -->
+  <!-- scroll end -->
 </div> <!-- home end -->
 
 css :---------------------------------
-#home {
 
-  width: 100%;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-}
-
-#mouseIcon {
-  height: 30px;
-}
 // -------------------------------------

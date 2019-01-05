@@ -20,10 +20,12 @@ window.addEventListener('scroll',function(){
     if(scrollobject.y > 0)
     {
         document.getElementById('mainNav').classList.remove("topTouch");
+        document.getElementById('homeContent').classList.add("fadeAway");
     }
     else
     {
          document.getElementById('mainNav').classList.add("topTouch");
+         document.getElementById('homeContent').classList.remove("fadeAway");
     }
 
 });

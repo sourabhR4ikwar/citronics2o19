@@ -1,0 +1,33 @@
+#home{
+  color: white;
+  text-align:center;
+  width: 100%;
+}
+
+#homeContent{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  text-align: center;
+  word-wrap: normal;
+  transition: 1s ease-out;
+}
+
+#homeContent h1{
+  font-size: 4em;
+}
+
+#homeContent p, #homeContent i{
+  font-size: 1.5em;
+}
+
+.fadeAway{
+  opacity: 0;
+  top: 10%;
+}
+#mouseIcon {
+  height: 50px;
+}

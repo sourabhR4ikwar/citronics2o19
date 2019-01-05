@@ -1,0 +1,71 @@
+header {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  padding: 20px 20px;
+}
+
+.menu{
+  font-size: 1.5em;
+  position: absolute;
+  float: left;
+}
+
+.menu li{
+  display: inline-block;
+  margin: 5px;
+}
+
+.socialIcons{
+ position: absolute;
+ bottom: 30px;
+ left: 15px;
+ list-style: none;
+ text-align: center;
+}
+.socialIcons li{
+  padding: 20px 0;
+  font-size: 1.5em;
+}
+
+#Register {
+  position: absolute;
+  right: 55px;
+  top: 15px;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.5em;
+  background: rgba(229, 52, 17, 1);
+}
+
+#back {
+  position: absolute;
+  right: 45px;
+  padding: 10px;
+  text-align: center;
+  font-size: 4em;
+  bottom: 40px;
+}
+
+.boxContainer {
+  position: absolute;
+  top: 15px;
+  left: 5px;
+}
+.box {
+  height: 5px;
+  width: 25px;
+  margin: 10px;
+  background: white;
+}
+.box1 {
+  width: 50px;
+}
+.box3{
+  width: 75px;
+}
+
+
+/*--------------------*/

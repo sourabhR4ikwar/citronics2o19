@@ -26,4 +26,5 @@ a {
 section {
   width: 100%;
   height: 100vh;
+    background: rgba(34, 19, 51, 1);
 }

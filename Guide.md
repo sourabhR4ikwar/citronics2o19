@@ -1,3 +1,15 @@
+Goals
+1. Nav Design
+2. Nav Functionality
+3. Nav Animation
+
+
+
+
+
+
+
+//---------------------------------
 Color Codes :
 orange rgba(229, 52, 17, 1);
 

@@ -8,43 +8,48 @@
 
 <!-- Stylesheet Links -->
 <link rel="stylesheet" href="css/style.css">
-
-
-
 </head>
 <body>
   <header>
     <nav>
-      <!--
-      <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Downloads</a></li>
-        <li><a href="#">Join Us!</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    -->
-      <div class="boxContainer">
+    <!--   Side Nav -->
+      <div id="sideNav" class="sidenav">
+        <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+        <a href="#home">Home</a>
+        <a href="#events">Events</a>
+        <a href="javascript:void(0)" onclick="dropMenu()">Downloads</a>
+        <div class="dropDown" id="dropDown">
+          <a href="http://cdgi.edu.in/citronics/Registration/index.php">E-certificate</a>
+          <a href="#">Schedule</a>
+        </div>
+        <a href="#join">Join Us!</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    <!--   /Side Nav -->
+      <div class="boxContainer" onclick="openNav()">
         <div class="box box1"></div>
         <div class="box box2"></div>
         <div class="box box3"></div>
       </div>
 
       <ul class="socialIcons">
-        <li><a href=""><i class="fa fa-facebook"></i></a></li>
-        <li><a href=""><i class="fa fa-twitter"></i></a></li>
-        <li><a href=""><i class="fa fa-wikipedia-w"></i></a></li>
-        <li><a href=""><i class="fa fa-instagram"></i></a></li>
-        <li><a href=""><i class="fa fa-youtube-play"></i></a></li>
+        <li><a href="https://www.facebook.com/citronics2k18"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.twitter.com/citronics2k18"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.wikipedia.org/wiki/citronics"><i class="fa fa-wikipedia-w"></i></a></li>
+        <li><a href="https://www.instagram.com/citronics2k18"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.youtube.com/citronics2k18"><i class="fa fa-youtube-play"></i></a></li>
       </ul>
-      <a href="#" id="Register">Register!</a>
-      <a href="#" id="back"><i class="fa fa-long-arrow-up"></i></a>
+      <a href="http://cdgi.edu.in/citronics/Registration/index.php" id="Register">Register!</a>
+      <a href="#home" id="back"><i class="fa fa-long-arrow-up"></i></a>
     </nav>
   </header>
-  <section id="sec1">
+  <section id="home">
   </section>
-  <section id="sec2">
+  <section id="events">
   </section>
+
+
+  <script src="js/main.js"></script>
 </body>
 </html>

@@ -18,7 +18,7 @@ header {
 
 .socialIcons{
  position: absolute;
- bottom: 40px;
+ bottom: 90px;
  left: 5px;
  list-style: none;
  text-align: center;
@@ -47,29 +47,29 @@ header {
   padding: 10px;
   text-align: center;
   font-size: 2em;
-  bottom: 40px;
+  bottom: 90px;
 }
 
 .boxContainer {
   position: absolute;
-  top: 20px;
+  top: 25px;
   left: 5px;
 }
 .box {
-  height: 4px;
-  width: 25px;
+  height: 2px;
+  width: 20px;
   margin-bottom: 10px;
   background: white;
 }
 .box1 {
-  width: 40px;
+  width: 30px;
 }
 .box3{
-  width: 60px;
+  width: 40px;
 }
 
 #sec1 {
-  background: #3d3d3d;
+  background: #1d1d1d;
 }
 
 #sec2 {

@@ -18,54 +18,62 @@ header {
 
 .socialIcons{
  position: absolute;
- bottom: 30px;
- left: 15px;
+ bottom: 40px;
+ left: 5px;
  list-style: none;
  text-align: center;
 }
 .socialIcons li{
-  padding: 20px 0;
-  font-size: 1.5em;
+  padding: 10px 0;
+  font-size: 1em;
 }
 
 #Register {
   position: absolute;
-  right: 55px;
+  right: 50px;
   top: 15px;
   width: 100px;
   padding: 10px;
   text-align: center;
   border-radius: 10px;
-  font-size: 1.5em;
+  font-size: 1em;
+  font-weight: bold;
   background: rgba(229, 52, 17, 1);
 }
 
 #back {
   position: absolute;
-  right: 45px;
+  right: 50px;
   padding: 10px;
   text-align: center;
-  font-size: 4em;
+  font-size: 2em;
   bottom: 40px;
 }
 
 .boxContainer {
   position: absolute;
-  top: 15px;
+  top: 20px;
   left: 5px;
 }
 .box {
-  height: 5px;
+  height: 4px;
   width: 25px;
-  margin: 10px;
+  margin-bottom: 10px;
   background: white;
 }
 .box1 {
-  width: 50px;
+  width: 40px;
 }
 .box3{
-  width: 75px;
+  width: 60px;
 }
 
+#sec1 {
+  background: #3d3d3d;
+}
+
+#sec2 {
+  background: rgba(34, 19, 51, 1);
+}
 
 /*--------------------*/

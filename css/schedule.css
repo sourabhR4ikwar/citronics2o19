@@ -8,8 +8,13 @@
 
 .scheduleContent {
   width: 100%;
-  margin: 5% auto;
-  z-index: 3;
+  margin: 6% auto;
+
+}
+@media only screen and (max-device-width: 468px){
+ .scheduleContent {
+   margin: 25% auto;
+ }
 }
 .scheduleContent h1{
   font-family: 'Pacifico';
@@ -26,6 +31,12 @@
 
 }
 .scheduleList li::before{
+  display: block;
+  content:'';
+  clear: both;
+
+}
+.scheduleList li::after{
   display: block;
   content:'';
   clear: both;
@@ -78,6 +89,10 @@
 }
 .listRightItem a:hover{
   color: white;
+}
+
+.scheduleContent a{
+  
 }
 
 @media only screen and (max-width: 468px){

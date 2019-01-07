@@ -1,8 +1,9 @@
 header {
-  position: fixed;
-  width: 100%;
-  height: 100vh;
+  position: absolute;
+  top:0;
+  left:0;
   padding: 20px 20px;
+
 }
 
 .sidenav{
@@ -52,8 +53,8 @@ header {
 
 
 .socialIcons{
- position: absolute;
- bottom: 90px;
+ position: fixed;
+ bottom: 30px;
  left: 5px;
  list-style: none;
  text-align: center;
@@ -62,38 +63,42 @@ header {
 .socialIcons li{
   padding: 10px 0;
   font-size: 1em;
+
 }
 
 #Register {
-  position: absolute;
-  right: 50px;
+  position: fixed;
+  right: 10px;
   top: 15px;
   width: 100px;
   padding: 10px;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 100px;
   font-size: 1em;
   font-weight: bold;
   background: rgba(229, 52, 17, 1);
   transition: 1s;
+
 }
 
 #back {
-  position: absolute;
-  right: 50px;
+  position: fixed;
+  right: 10px;
   padding: 10px;
   text-align: center;
   font-size: 2em;
-  bottom: 90px;
+  bottom: 30px;
   transition: 1s;
+
 }
 
 
 
 .boxContainer {
-  position: absolute;
+  position: fixed;
   top: 25px;
-  left: 5px;
+  left: 10px;
+
 }
 .boxContainer:hover {
   cursor: pointer;
@@ -117,7 +122,7 @@ header {
 
 /*----------   ----------*/
 .topTouch .socialIcons{
-   bottom: -150px;
+   bottom: -250px;
 }
 
 .topTouch #Register{
@@ -125,7 +130,7 @@ header {
   font-size: 1.5em;
   top: 50%;
   right: 50%;
-  transform: translateX(40%);
+  transform: translate(50%, 50%);
 
 }
 
@@ -133,13 +138,13 @@ header {
  .topTouch #Register{
    top: 50%;
    right: 50%;
-   transform: translateX(40%) translateY(50%);
+   transform: translate(50%,100%);
  }
 
 }
 
 .topTouch #back{
-  bottom: -10px;
+  bottom: -80px;
 }
 
 .topTouch .box1{

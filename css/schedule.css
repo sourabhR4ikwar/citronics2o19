@@ -3,19 +3,20 @@
   height: 100vh;
   text-align: center;
   color: white;
-  font-family: monospace;
+
 }
 
 .scheduleContent {
   width: 100%;
   margin: 5% auto;
-
+  z-index: 3;
 }
 .scheduleContent h1{
   font-family: 'Pacifico';
   color: rgba(229, 52, 17, 1);
   font-weight: 100;
   font-size: 3em;
+
 }
 
 .scheduleList{
@@ -41,8 +42,7 @@
   flex-wrap: wrap;
   align-items: center;
   float: left;
-
-
+  margin-bottom: 10px;
 }
 .scheduleList .listRightItem {
    display: flex;
@@ -53,12 +53,12 @@
 .listLeftItem h2{
   font-size: 40px;
   margin-right: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .listLeftItem .dayMonth{
   font-size: 12px;
   margin-right: 18px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .day{
   color: grey;
@@ -66,14 +66,15 @@
 }
 .listLeftItem p{
   font-size: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+
 }
 .listRightItem a{
   color: grey;
   border: 2px solid white;
   border-radius: 100px;
   padding: 10px 40px;
-  z-index: 5;
+
 }
 .listRightItem a:hover{
   color: white;

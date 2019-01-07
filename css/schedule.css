@@ -1,5 +1,5 @@
 .schedule {
-  width: 100%;
+  width: 40%;
   height: 100vh;
   text-align: center;
   color: white;
@@ -15,59 +15,72 @@
   font-family: 'Pacifico';
   color: rgba(229, 52, 17, 1);
   font-weight: 100;
-  font-size: 2.4em;
+  font-size: 3em;
 }
 
 .scheduleList{
   width: 80%;
-  margin: 10% auto;
+  margin: 5% auto;
 
+
+}
+.scheduleList li::before{
+  display: block;
+  content:'';
+  clear: both;
 
 }
 .scheduleList li{
   list-style: none;
   width: 100%;
+  margin: 20px 0;
+/*  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; */
+}
+.scheduleList .listLeftItem {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  float: left;
+
+}
+.scheduleList .listRightItem {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  border: 2px solid black;
+  float: right;
 }
-
-.scheduleList li small{
-  display: block;
+.listLeftItem h2{
+  font-size: 40px;
+  margin-right: 10px;
+  margin-bottom: 15px;
 }
-
-.scheduleList li a{
-  font-weight: bold;
+.listLeftItem .dayMonth{
+  font-size: 12px;
+  margin-right: 18px;
+  margin-bottom: 15px;
+}
+.day{
   color: grey;
-  font-size: 1.5em;
-  border: 2px solid white;
-  border-radius: 10%;
-  padding: 10px 30px;
-  align-self: flex-end;
+  margin-bottom: 4px;
 }
-.scheduleList li a:hover {
+.listLeftItem p{
+  font-size: 25px;
+  font-family: arial;
+  margin-bottom: 15px;
+}
+.listRightItem a{
+  color: grey;
+  border: 2px solid white;
+  border-radius: 100px;
+  padding: 10px 40px;
+}
+.listRightItem a:hover{
   color: white;
 }
 
-
-.scheduleList h2{
-   font-size: 3em;
-   height: 50px;
-}
-
-.scheduleList .dayMonth {
-  font-weight: bold;
-}
-.scheduleList .day{
-  font-size: 1em;
-  color: grey;
-
-}
-.scheduleList .month{
-  font-size: 1.2em;
-}
-.scheduleList p{
-  font-size: 2em;
-  font-weight: bold;
+@media only screen and (max-width: 468px){
+  .listLeftItem p{
+    min-width: 80%;
+  }
 }

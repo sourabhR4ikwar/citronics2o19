@@ -2,7 +2,7 @@
   color: white;
   text-align:center;
   width: 100%;
-  background-image: url("../images/AudienceEdit.png"), linear-gradient(rgba(34, 19, 51, 1), rgba(34, 19, 51, 1));
+  background-image: url("../images/AudienceEdit-min.jpg"), linear-gradient(rgba(34, 19, 51, 1), rgba(34, 19, 51, 1));
   background-position: center;
   background-attachment: fixed;
   background-blend-mode: overlay;
@@ -36,9 +36,6 @@
   }
   #homeContent{
     margin: 20px auto;
-  }
-  #home {
-    background-image: url();
   }
 }
 

@@ -1,6 +1,5 @@
 .schedule {
   width: 100%;
-  height: 100vh;
   text-align: center;
   color: white;
 
@@ -9,7 +8,6 @@
 .scheduleContent {
   width: 100%;
   margin: 6% auto;
-
 }
 @media only screen and (max-device-width: 468px){
  .scheduleContent {
@@ -27,8 +25,6 @@
 .scheduleList{
   width: 80%;
   margin: 5% auto;
-
-
 }
 .scheduleList li::before{
   display: block;
@@ -91,9 +87,7 @@
   color: white;
 }
 
-.scheduleContent a{
-  
-}
+
 
 @media only screen and (max-width: 468px){
   .listLeftItem p{

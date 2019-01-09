@@ -30,3 +30,10 @@
   width: 300px;
   padding: 20px;
 }
+
+@media only screen and (max-device-width: 468px){
+  #contact {
+    padding-top: 25%;
+    padding-bottom: 15%;
+  }
+}

@@ -1,3 +1,5 @@
+var eventPage = document.getElementById('eventPage');
+
 function openNav(){
   document.getElementById("sideNav").style.width = "100%";
 }
@@ -9,6 +11,14 @@ function closeNav(){
 function dropMenu(){
   document.getElementById("dropDown").classList.toggle("show");
 }
+
+function openEvent(){
+  eventPage.classList.remove("deactive");
+}
+function closeEvent(){
+  eventPage.classList.add("deactive");
+}
+
 var scrollobject = {};
 window.addEventListener('scroll',function(){
 

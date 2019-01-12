@@ -4,11 +4,14 @@
   clear: both;
 }
 #contact {
-  background: rgba(229, 52, 17, 1);
+  background-image: url("../images/AudienceEdit-min.jpg"), linear-gradient(rgba(34, 19, 51, 1), rgba(34, 19, 51, 1));
+  background-position: center;
   color: white;
   text-shadow: 2px 2px rgba(34, 19, 51, 1);
   padding-top:5%;
   padding-bottom: 5%;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
 }
 .contactContent {
   text-align: center;

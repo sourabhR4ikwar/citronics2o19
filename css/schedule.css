@@ -88,6 +88,14 @@
   color: white;
 }
 
+.scheduleContent h3{
+  font-size: 35px;
+  border-bottom: 2px solid white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+}
 
 
 @media only screen and (max-width: 468px){
